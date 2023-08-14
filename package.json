@@ -2,11 +2,12 @@
   "$schema": "https://json.schemastore.org/package.json",
   "name": "@strozw/github-actions-languageserver",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "CLI for `@actions/languageserver`",
   "publishConfig": {
     "access": "public"
-  }, "bin": {
+  },
+  "bin": {
     "github-actions-languageserver": "./dist/cli.js"
   },
   "engines": {
