@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@strozw/github-actions-languageserver",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "CLI for `@actions/languageserver`",
+  "bin": "dist/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "keywords": [
+    "github",
+    "actions"
+  ],
+  "author": "strozw",
+  "license": "ISC",
+  "devDependencies": {
+    "@esbuild-kit/esm-loader": "^2.5.5",
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@actions/languageserver": "^0.3.7",
+    "tsx": "^3.12.7"
+  }
+}
