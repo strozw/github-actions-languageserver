@@ -7,10 +7,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "bin": "dist/cli.js",
-	"engines": {
-		"node": ">=16.0.0"
-	},
+  "bin": "./dist/cli.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup"
@@ -18,8 +18,8 @@
   "keywords": [
     "github",
     "actions",
-		"github-actions",
-		"languageserver"
+    "github-actions",
+    "languageserver"
   ],
   "author": "strozw",
   "license": "MIT",
