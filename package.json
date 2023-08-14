@@ -11,7 +11,9 @@
   },
   "keywords": [
     "github",
-    "actions"
+    "actions",
+		"github-actions",
+		"languageserver"
   ],
   "author": "strozw",
   "license": "MIT",
