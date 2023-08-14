@@ -7,7 +7,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "bin": "./dist/cli.js",
+  "bin": {
+    "github-actions-languageserver": "./dist/cli.js"
+  },
   "engines": {
     "node": ">=16.0.0"
   },
