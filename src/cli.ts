@@ -1,2 +1,2 @@
-#!/usr/bin/env node_modules/.bin/tsx
+#!/usr/bin/env npx tsx
 import "@actions/languageserver"

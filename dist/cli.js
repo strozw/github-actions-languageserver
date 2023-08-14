@@ -1,4 +1,4 @@
-#!/usr/bin/env node_modules/.bin/tsx
+#!/usr/bin/env npx tsx
 
 // src/cli.ts
 import "@actions/languageserver";
