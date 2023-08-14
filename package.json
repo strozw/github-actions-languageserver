@@ -4,6 +4,9 @@
   "type": "module",
   "version": "0.1.0",
   "description": "CLI for `@actions/languageserver`",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "dist/cli.js",
 	"engines": {
 		"node": ">=16.0.0"
