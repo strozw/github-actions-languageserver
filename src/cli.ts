@@ -1,2 +1,2 @@
-#!/usr/bin/env node --experimental-loader @esbuild-kit/esm-loader
+#!/usr/bin/env npx tsx
 import "@actions/languageserver"

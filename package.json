@@ -6,8 +6,7 @@
   "description": "CLI for `@actions/languageserver`",
   "publishConfig": {
     "access": "public"
-  },
-  "bin": {
+  }, "bin": {
     "github-actions-languageserver": "./dist/cli.js"
   },
   "engines": {
@@ -30,7 +29,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@actions/languageserver": "^0.3.7",
-    "@esbuild-kit/esm-loader": "^2.5.5"
+    "@actions/languageserver": "^0.3.7"
   }
 }
