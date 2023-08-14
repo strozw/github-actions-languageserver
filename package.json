@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "description": "CLI for `@actions/languageserver`",
   "bin": "dist/cli.js",
+	"engines": {
+		"node": ">=16.0.0"
+	},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup"
