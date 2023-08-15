@@ -1,3 +1,5 @@
+# `@strozw/github-actions-languageserver`
+
 ## About
 
 This package makes [@actions/languageserver](https://github.com/actions/languageservices/tree/main/languageserver) executable in the CLI.
@@ -13,3 +15,8 @@ This package makes [@actions/languageserver](https://github.com/actions/language
   ```sh
   npx @strozw/github-actions-languageserver --stdio
   ```
+
+## Credits
+
+- [@actions/languageserver](https://github.com/actions/languageservices/tree/main/languageserver)
+- [tsx](https://github.com/esbuild-kit/tsx)
