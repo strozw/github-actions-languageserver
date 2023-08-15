@@ -1,3 +1,6 @@
+## About
+
+This package makes [@actions/languageserver](https://github.com/actions/languageservices/tree/main/languageserver) executable in the CLI.
 
 ## Installing & Usages
 
