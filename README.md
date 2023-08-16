@@ -1,5 +1,7 @@
 # `@strozw/github-actions-languageserver`
 
+[![npm version](https://badge.fury.io/js/@strozw%2Fgithub-actions-languageserver.svg)](https://badge.fury.io/js/@strozw%2Fgithub-actions-languageserver)
+
 ## About
 
 This package makes [@actions/languageserver](https://github.com/actions/languageservices/tree/main/languageserver) executable in the CLI.
@@ -9,6 +11,8 @@ This package makes [@actions/languageserver](https://github.com/actions/language
 - `npm`
   ```sh
   npm i -g @strozw/github-actions-languageserver
+  ```
+  ```sh
   github-actions-languageserver --stdio
   ```
 - `npx`
