@@ -1,6 +1,6 @@
 # `@strozw/github-actions-languageserver`
 
-[![npm version](https://badge.fury.io/js/@strozw%2Fgithub-actions-languageserver.svg)](https://badge.fury.io/js/@strozw%2Fgithub-actions-languageserver)
+[![npm](https://img.shields.io/npm/v/%40strozw%2Fgithub-actions-languageserver)](https://badge.fury.io/js/@strozw%2Fgithub-actions-languageserver)
 
 ## About
 
