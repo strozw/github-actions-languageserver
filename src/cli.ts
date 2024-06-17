@@ -1,2 +1,2 @@
-#!/usr/bin/env npx tsx
-import "@actions/languageserver"
+#!/usr/bin/env node
+import "@actions/languageserver";
