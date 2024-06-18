@@ -9,7 +9,7 @@
     "access": "public"
   },
   "bin": {
-    "github-actions-languageserver": "./dist/cli.js"
+    "github-actions-languageserver": "./dist/cli.cjs"
   },
   "engines": {
     "node": ">=16.0.0"
