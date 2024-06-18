@@ -1,5 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
+const ShebangPlugin = require("webpack-shebang-plugin");
 
 /**
  * @type {import('webpack').Configuration}
@@ -14,6 +15,7 @@ module.exports = {
     new webpack.DefinePlugin({
       PRODUCTION: JSON.stringify(process.env.NODE_ENV),
     }),
+    new ShebangPlugin(),
   ],
   module: {
     rules: [
@@ -65,7 +67,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "cli.cjs",
-    libraryTarget: "commonjs",
+    library: {
+      type: "commonjs",
+    },
     devtoolModuleFilenameTemplate: "../[resource-path]",
   },
 };
