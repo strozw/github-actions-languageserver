@@ -3,13 +3,13 @@
   "name": "@strozw/github-actions-languageserver",
   "homepage": "https://github.com/strozw/github-actions-languageserver",
   "type": "module",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "CLI for `@actions/languageserver`",
   "publishConfig": {
     "access": "public"
   },
   "bin": {
-    "github-actions-languageserver": "./dist/cli.js"
+    "github-actions-languageserver": "./dist/cli.cjs"
   },
   "engines": {
     "node": ">=16.0.0"
