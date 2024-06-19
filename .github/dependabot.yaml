@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Maintain dependencies in our GitHub Workflows
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: "npm"
+    # Files stored in `app` directory
+    directory: /
+    schedule:
+      interval: "weekly"
