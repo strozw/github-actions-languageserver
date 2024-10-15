@@ -23,4 +23,3 @@ This package makes [@actions/languageserver](https://github.com/actions/language
 ## Credits
 
 - [@actions/languageserver](https://github.com/actions/languageservices/tree/main/languageserver)
-- [tsx](https://github.com/esbuild-kit/tsx)
